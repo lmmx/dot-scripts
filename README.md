@@ -2,7 +2,7 @@
 Scripts for common tasks sourced in .bashrc // .bash_profile
 
 * Miscellaneous/drafts etc. in top level
-* `exports` directory gets exported to PATH with this line in `.bashrc` [sourced to `.bash_profile`:
+* `exports` directory gets exported to PATH with this line in `.bashrc` [sourced to `.bash_profile`]:
 
    ```
 export PATH=$PATH:/home/louis/.scripts/exports
