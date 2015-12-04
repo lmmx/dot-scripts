@@ -7,5 +7,5 @@ Scripts for common tasks sourced in .bashrc // .bash_profile
    ```
 export PATH=$PATH:/home/louis/.scripts/exports
 ```
-   (thus they end up accessible from the command line without their source files cluttering the namespace)
-* The `exportfiles.sh` script contains `cp` commands to refresh binaries in the `exports` folder
+   (thus symlinks to binaries and scripts end up accessible from the command line without their source files cluttering the namespace)
+* It's also possible to keep 'nicer names' (e.g. leave off file extensions, shorten for the idiosyncrasies of shell tab completion ease-of-use etc...) for sym links under exports while maintaining understandable source folders
