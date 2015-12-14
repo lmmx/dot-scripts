@@ -1,0 +1,2 @@
+Name	Command	Binding
+Sanitise clipboard	gnome-terminal -e "bash -c \"source /home/louis/.bashrc; webcleanclip | xclip -sel clip; echo -n 'Cleaning up the clipboard'; for num in {1..5}; do sleep 0.2; echo -n '.'; done;\"" --geometry 80x2 --title="Cleaning up clipboard:" --window-with-profile="Bigcommands"	Alt-Gr + S
